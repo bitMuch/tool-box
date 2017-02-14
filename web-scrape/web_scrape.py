@@ -39,12 +39,11 @@ def main ():
   for players in transfer:
     scoop(players)
 
-  for player in roster:
-    if "NameNumber" not in player:
-      print(player)
-      with open('players.txt', mode='wt', encoding='utf-8') as goal:  
-        goal.write('\n'.join(player))
-
+  with open('players.txt','w') as goal:
+    for player in roster:
+      if "NameNumber" not in player:
+        print(player)      
+        goal.writelines(player + '\n')
 # --- Main --- #
 if __name__ == "__main__":
   main()
