@@ -2,25 +2,25 @@
 # Created by c@caine
 # On: 14/02/2017
 # --- Preamble --- #
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
+from bs4 import BeautifulSoup			# funtions for parsing html
+from urllib.request import urlopen		# functions for d/l web page
 
 # --- Declarations --- #
 target = 'http://www.footballsquads.co.uk/eng/2016-2017/faprem.htm'
-root_addy = target[:46] #modularise this
+root_addy = target[:46]				# strip url for use later 
+# ---- lists
 teams = []
 transfer  = []
 roster = []
 players = []
-
 # --- Functions --- #
-def chef(ingredient):
+
+def chef(ingredient): 				# fetch page
   soup = BeautifulSoup(urlopen(ingredient), 'html.parser')
   return soup
 
-def scoop(players):
-  # get name and number
-  for sibling in players.find_all(width="180"): 			# grabs surname + num
+def scoop(players):				# grabs surname + num
+  for sibling in players.find_all(width="180"): 
     try:
       # works, but my gosh what a mess, (better way?)
       roster.append(repr(sibling.string.split(' ')[-1]).strip("'") + \
