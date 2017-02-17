@@ -22,8 +22,8 @@ def chef(ingredient): 				# fetch page
 def scoop(players):				# grabs surname + num
   for sibling in players.find_all(width="180"): 
     try:
-      # works, but my gosh what a mess, (better way?)
-      roster.append(repr(sibling.string.split(' ')[-1]).strip("'") + \ # we have to grab player name and then the relevent number
+      # works, but my gosh what a mess, (better way?)                  # we have to grab player name and then the relevent number
+      roster.append(repr(sibling.string.split(' ')[-1]).strip("'") + \ 
       str(repr(sibling.string.previous_element.previous_element.previous_element.previous_element.string.strip('\r\n')).strip("'")))
     except:                                                            # all possible numbers listed, not all numbers have a name
       pass                                                              
