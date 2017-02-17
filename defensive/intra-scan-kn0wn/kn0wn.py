@@ -15,7 +15,7 @@ nm = nmap.PortScanner()				# define global nmap object
 def scan_init ():
   nm.scan(internal_network, arguments='-F')	# just a fast scan
 
-def load_known ():				# load known hosts 
+def load_known ():				# load known hosts \
   global whitelist				# into 'whitelist[]'
   with open('whitelist.txt', 'r') as wl:	
     whitelist = [line.strip(' \n') for line in wl]	
