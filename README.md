@@ -1,4 +1,4 @@
-# // --- Preamble --- //
+## // --- Preamble --- //
 prototype tools (R&D)
 - offensive: web_scraper.py, zip_crack.py
 - defensive: kn0wn.py
@@ -6,7 +6,7 @@ prototype tools (R&D)
 Essentially for study, research and devlopment. Unlikely to be of use to anyone at present.
 ```
 --------------------------------------------------------------------------------------------------------------------------------
-## // --- tool-box --- //
+### // --- tool-box --- //
 **web_scraper.py** :
 A friend of mine shared with me, two of his passwords for popular online services. They were both surnames of well known footballers,  with the players jersey number added to the end it of them. 
 He is a regular user, and this made sense as eash password contained a capital letter, a fair number of characters, at least one number and was easy to remember. 
