@@ -1,9 +1,12 @@
 # --- tool-box --- #
 prototype tools (R&D)
-offensive: web_scraper.py, zip_crack.py
-defensive: kn0wn.py
+- offensive: web_scraper.py, zip_crack.py
+- defensive: kn0wn.py
 
+```
 Essentially for study, research and devlopment. Unlikely to be of use to anyone at present.
+
+```
 
 # --- Preamble --- #
 web_scraper.py :
@@ -13,16 +16,15 @@ He is a regular user, and this made sense as eash password contained a capital l
 Finishing up the first few excercises in: Violent Python, by T.J. O'Conner, wanting something a little beefier for a passwords.txt file, than the "cp /usr/share/dict/words dictionary.txt" I had initially run to get going with the examples.
 
 Thinking about the habits of human behaviour, I remembered my friend. His generosity inspired me to wip up a quick script that would (with the help of BeautifulSoup4) scrape the target data of each teams roster from: http://www.footballsquads.co.uk/eng/2016-2017/faprem.htm, concatonate as Surname+Number, and then wrting that list to a file.
-- -
-To do: it's sloppy as hell and hardcoded, so clean up, modularize and send back out to generate more passwords..
---
-Bugs: A few names appear with some kind of error in encoding. eg. "Granit\xa0Xhaka29"
-- -
-What next?: commonBabyName+commonDateOfBirth.. nine months after Valentines is supposedly popular, right. Now you're thinking.
+- To do: it's sloppy as hell and hardcoded, so clean up, modularize and send back out to generate more passwords..
+- Bugs: A few names appear with some kind of error in encoding. eg. "Granit\xa0Xhaka29"
+- What next?: commonBabyName+commonDateOfBirth.. nine months after Valentines is supposedly popular, right. Now you're thinking.
 
 zip_crack.py :
 Takes two arguments a 'password_protected.zip' file and a 'wordlist.txt'
+
 For example:
+
 ```
 $ ./zip_crack.py treasure_chest.zip dictionary.txt 
 [+] Password = secret
