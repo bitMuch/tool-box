@@ -23,16 +23,20 @@ What next?: commonBabyName+commonDateOfBirth.. nine months after Valentines is s
 zip_crack.py :
 Takes two arguments a 'password_protected.zip' file and a 'wordlist.txt'
 For example:
-'''$ ./zip_crack.py treasure_chest.zip dictionary.txt 
+```
+$ ./zip_crack.py treasure_chest.zip dictionary.txt 
 [+] Password = secret
-$'''
+$
+```
 
 kn0wn.py :
 Prototype of a simple lightweight defensve scanner applet,f ocused on internal network monitoring.
 Pretty limited currently, simply loads in a whitelist of known host ip and checks them against an nmap scan.
 
 Example output:
-'''--- Summary Of Scan ---------------------------------------------
+
+```
+--- Summary Of Scan ---------------------------------------------
 -----------------------------------------------------------------
 [G]	KNOWN	192.168.1.254	>>>	BThomehub.home
 -----------------------------------------------------------------
@@ -42,6 +46,6 @@ Example output:
 -----------------------------------------------------------------
 [G]	KNOWN	192.168.1.75	>>>	kindle-97cf28561.home
 -----------------------------------------------------------------
-'''
+```
 
 Much-bits to add.
