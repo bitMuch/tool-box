@@ -5,7 +5,7 @@ echo '#!/usr/bin/python' > $1
 echo '# Created by' $(whoami)'@'$(hostname) >> $1
 echo '# On:' $TSTAMP >> $1
 echo '# --- Preamble --- #' >> $1
-echo '# --- Declarations --- #' >> $1
+echo '# --- Definitions --- #' >> $1
 echo '# --- Functions --- #' >> $1
 echo 'def main ():' >> $1
 echo '# --- Main --- #' >> $1
