@@ -31,9 +31,9 @@ Welbeck23
 Bellerín24
 ```
 
-- To do: it's sloppy as hell and hardcoded, so clean up, modularize.
-- Bugs: A few names appeared with some kind of error in encoding. eg. "Granit\xa0Xhaka29"
-- What next?: commonBabyName+commonDateOfBirth.. nine months after Valentines is supposedly popular, right.
+- **To** do: it's sloppy as hell and hardcoded, so clean up, modularize.
+- **Bugs**: A few names appeared with some kind of error in encoding. eg. "Granit\xa0Xhaka29"
+- *What next?*: commonBabyName+commonDateOfBirth.. nine months after Valentines is supposedly popular, right.
 
 
 (**zip_crack.py**) :
