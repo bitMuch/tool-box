@@ -1,13 +1,13 @@
 ## /* Preamble */
 **prototype tools (R&D)**
-- offensive: web_scraper.py, zip_crack.py
+- offensive: web_scrape.py, zip_crack.py
 - defensive: kn0wn.py
 ```
       Essentially for study, research and development. Unlikely to be of use to anyone at present.
 ```
 --------------------------------------------------------------------------------------------------------------------------------
 ### /* tool-box */
-(**web_scraper.py**) :
+(**web_scrape.py**) :
 A friend of mine, shared with me two of his passwords for popular online services. They were both surnames of well known footballers,  with the players jersey number added to the end. 
 He is a regular user, and this made sense as each password contained a capital letter, a fair number of characters, included numbers and was easy to remember. 
 
