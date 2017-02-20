@@ -1,9 +1,9 @@
 ## /* Preamble */
-prototype tools (R&D)
+**prototype tools (R&D)**
 - offensive: web_scraper.py, zip_crack.py
 - defensive: kn0wn.py
 ```
-Essentially for study, research and development. Unlikely to be of use to anyone at present.
+      Essentially for study, research and development. Unlikely to be of use to anyone at present.
 ```
 --------------------------------------------------------------------------------------------------------------------------------
 ### /* tool-box */
