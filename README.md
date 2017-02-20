@@ -1,4 +1,4 @@
-## // --- Preamble --- //
+## /* Preamble */
 prototype tools (R&D)
 - offensive: web_scraper.py, zip_crack.py
 - defensive: kn0wn.py
@@ -6,8 +6,8 @@ prototype tools (R&D)
 Essentially for study, research and devlopment. Unlikely to be of use to anyone at present.
 ```
 --------------------------------------------------------------------------------------------------------------------------------
-### // --- tool-box --- //
-**web_scraper.py** :
+### /* tool-box */
+(**web_scraper.py**) :
 A friend of mine shared with me, two of his passwords for popular online services. They were both surnames of well known footballers,  with the players jersey number added to the end it of them. 
 He is a regular user, and this made sense as eash password contained a capital letter, a fair number of characters, at least one number and was easy to remember. 
 
@@ -18,7 +18,7 @@ Thinking about the habits of human behaviour, I remembered my friend. His genero
 - Bugs: A few names appear with some kind of error in encoding. eg. "Granit\xa0Xhaka29"
 - What next?: commonBabyName+commonDateOfBirth.. nine months after Valentines is supposedly popular, right. Now you're thinking.
 
-**zip_crack.py** :
+(**zip_crack.py**) :
 Takes two arguments a 'password_protected.zip' file and a 'wordlist.txt'
 
 For example:
@@ -29,9 +29,9 @@ $ ./zip_crack.py treasure_chest.zip dictionary.txt
 $
 ```
 
-**kn0wn.py** :
-Prototype of a simple lightweight defensve scanner applet,f ocused on internal network monitoring.
-Pretty limited currently, simply loads in a whitelist of known host ip and checks them against an nmap scan.
+(**kn0wn.py**) :
+Prototype of a simple lightweight defensve scanner applet,focused on LAN monitoring.
+Currently just loads in a whitelist of known host ip and checks them against an nmap scan.
 
 Example output:
 
