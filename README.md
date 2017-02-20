@@ -15,6 +15,8 @@ Finishing up the first few excercises in: Violent Python, by T.J. O'Conner, want
 
 Thinking about the habits of human behaviour, I remembered my friend and his system. This inspired me to wip up a quick script that would (with the help of BeautifulSoup4) scrape the target data of each teams roster from: http://www.footballsquads.co.uk/eng/2016-2017/faprem.htm, concatonate the players Surname+Number, then write that list to a file.
 
+We grabbed 1068 player names and numbers in all.
+
 Example output:
 
 ```
