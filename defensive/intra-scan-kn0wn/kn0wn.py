@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 # Created by c@caine
 # On: 16/02/2017
 # kn0wn: A defensive scanner
