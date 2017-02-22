@@ -1,12 +1,41 @@
 ## /* Preamble */
 **prototype tools (R&D)**
-- offensive: web_scrape.py, zip_crack.py
+- offensive: Fphil-0.01, web_scrape.py, zip_crack.py
 - defensive: kn0wn.py
 ```
       Essentially for study, research and development. Unlikely to be of use to anyone at present.
 ```
 --------------------------------------------------------------------------------------------------------------------------------
 ### /* tool-box */
+
+(**Fphil.py**) :
+
+Example Output:
+```
+-------------------------------------------------------------------------
+### FTP Pen-Testing/Hacking Infiltration Utility ########################
+--------------------------------------------------------- [Fphil-0.01] --
+[*] TARGETING	 ->	USER: alarm @ HOST: 192.168.1.72
+-------------------------------------------------------------------------
+[+] Trying anonymous credentials for ftp@192.168.1.72
+[-] FTP anonymous login failed.
+-------------------------------------------------------------------------
+[!] Attempting Brute-Force method, in..
+[3] Press CTRL-C to Abort
+[2] Press CTRL-C to Abort
+[1] Press CTRL-C to Abort
+[0] Press CTRL-C to Abort
+[#] ...
+[#] Trying password list.. This may take a while
+[#] ...
+-------------------------------------------------------------------------
+[!] FTP login successful with:
+[>] USER: alarm
+[>] PASS: alarm
+[.]
+--------------------------------------------------------- [Fphil-0.01] --
+```
+
 (**web_scrape.py**) :
 A friend of mine, shared with me two of his passwords for popular online services. They were both surnames of well known footballers,  with the players jersey number added to the end. 
 He is a regular user, and this made sense as each password contained a capital letter, a fair number of characters, included numbers and was easy to remember. 

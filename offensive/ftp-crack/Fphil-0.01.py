@@ -48,7 +48,7 @@ def connBrute():
     if conn(thost, uname, pword):
       print('[#] ...')
       print('-------------------------------------------------------------------------')
-      print('[!] FTP login successfull with:\n[>] USER: %s\n[>] PASS: %s\n[.]' % (uname, pword))
+      print('[!] FTP login successful with:\n[>] USER: %s\n[>] PASS: %s\n[.]' % (uname, pword))
     else:
       print('[#]')
       print('-------------------------------------------------------------------------')
