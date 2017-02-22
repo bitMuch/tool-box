@@ -1,7 +1,7 @@
 ## /* Preamble */
 **prototype tools (R&D)**
-- Offensive Security: Fphil-0.01.py, w3ndy.py, z0e.py
-- Defensive Reconaissance: kn0wn.py
+- Offensive Security: **Fphil-0.01.py** :: **w3ndy.py** :: **z0e.py**
+- Defensive Reconaissance: **kn0wn.py**
 ```
       Essentially for study, research and development. Unlikely to be of use to anyone at present.
 ```
