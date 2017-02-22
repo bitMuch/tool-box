@@ -29,7 +29,7 @@ Example Output:
 [#] Trying password list.. This may take a while
 [#] ...
 -------------------------------------------------------------------------
-[!] FTP login successfull with:
+[!] FTP login successful with:
 [>] USER: alarm
 [>] PASS: alarm
 [.]
