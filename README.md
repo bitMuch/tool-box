@@ -8,14 +8,14 @@
 --------------------------------------------------------------------------------------------------------------------------------
 ### /* tool-box */
 
-(**Fphil.py**) :
+(**ftp-cracker/Fphil.py**) :
 
 Example Output:
 ```
 -------------------------------------------------------------------------
 ### FTP Pen-Testing/Hacking Infiltration Utility ########################
 --------------------------------------------------------- [Fphil-0.01] --
-[*] TARGETING	 ->	USER: alarm @ HOST: 192.168.1.72
+[*] TARGETING	 ->	   USER: alarm @ HOST: 192.168.1.72
 -------------------------------------------------------------------------
 [+] Trying anonymous credentials for ftp@192.168.1.72
 [-] FTP anonymous login failed.
@@ -37,7 +37,7 @@ Example Output:
 ```
 --
 
-(**web_scraper/w3ndy**) :
+(**web-scraper/w3ndy**) :
 
 Example output:
 
@@ -67,7 +67,7 @@ w3ndy, grabbed 1068 player names and numbers in all.
 
 --
 
-(**zip_cracker/z0e**) :
+(**zip-cracker/z0e**) :
 Takes two arguments a 'password_protected.zip' file and a 'wordlist.txt'
 
 For example:
@@ -99,3 +99,4 @@ Example output:
 ```
 
 Much-bits to add.
+:wq <-
