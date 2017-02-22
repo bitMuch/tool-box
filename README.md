@@ -55,9 +55,10 @@ Bellerín24
 A friend of mine, shared with me two of his passwords for popular online services. They were both surnames of well known footballers,  with the players jersey number added to the end. 
 He is a regular user, and this made sense as each password contained a capital letter, a fair number of characters, included numbers and was easy to remember. 
 
-Finishing up the first few excercises from the book: Violent Python, by T.J. O'Conner, and wanting something a little beefier for a password file than the *"cp /usr/share/dict/words dictionary.txt"* I had initially run, to get going with the examples.
+Well, after finishing up the first few excercises from the book: Violent Python, by T.J. O'Conner, and wanting something a little beefier for a pwfile than the *"cp /usr/share/dict/words dictionary.txt"* I had initially run.
 
-Thinking about the habits of human behaviour, I remembered my friend and his system. That inspired me to wip up a quick script that would (with the help of BeautifulSoup4) scrape the target data of each teams roster from: http://www.footballsquads.co.uk/eng/2016-2017/faprem.htm, concatonate the players Surname+Number, then write that list to a file.
+I got to thinking about the habits of human behaviour, and soon remembered my friend and his system. 
+That inspired me to wip up a quick script that would (with the help of BeautifulSoup4) scrape the target data of each teams roster from: http://www.footballsquads.co.uk/eng/2016-2017/faprem.htm, concatonate the players Surname+Number, then write that list to a file.
 
 w3ndy, grabbed 1068 player names and numbers in all.
 
@@ -99,4 +100,4 @@ Example output:
 ```
 
 Much-bits to add.
-:wq <-
+:wq
