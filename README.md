@@ -57,24 +57,24 @@ He is a regular user, and this made sense as each password contained a capital l
 
 Well, after finishing up the first few excercises from the book: Violent Python, by T.J. O'Conner, and wanting something a little beefier for a pwfile than the *"cp /usr/share/dict/words dictionary.txt"* I had initially run.
 
-I got to thinking about the habits of human behaviour, and soon remembered my friend and his system. 
+I got to thinking about the habits of human behaviour, and soon remembered my friends system. 
 That inspired me to wip up a quick script that would (with the help of BeautifulSoup4) scrape the target data of each teams roster from: http://www.footballsquads.co.uk/eng/2016-2017/faprem.htm, concatonate the players Surname+Number, then write that list to a file.
 
 w3ndy, grabbed 1068 player names and numbers in all.
 
-- **To** do: it's sloppy as hell and hardcoded, so clean up, modularize.
+- **To do**: it's sloppy as hell and hardcoded, so clean up, modularize.
 - **Bugs**: A few names appeared with some kind of error in encoding. eg. "Granit\xa0Xhaka29"
 - *What next?*: commonBabyName+commonDateOfBirth.. nine months after Valentines is supposedly popular, right.
 
 --
 
 (**zip-cracker/z0e**) :
-Takes two arguments a 'password_protected.zip' file and a 'wordlist.txt'
+Takes two arguments, a 'password_protected.zip' file and a 'wordlist.txt'
 
 For example:
 
 ```
-$ ./zip_crack.py treasure_chest.zip dictionary.txt 
+$ ./z0e.py treasure_chest.zip dictionary.txt 
 [+] Password = secret
 $
 ```
